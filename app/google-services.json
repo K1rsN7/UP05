@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460602168502",
+    "project_id": "educational-f3bd6",
+    "storage_bucket": "educational-f3bd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460602168502:android:afd6e914ca38c6bc140217",
+        "android_client_info": {
+          "package_name": "com.example.educationalpractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXYVJ6UDsSO1p8GyvYInD2UL6-fVr9Oek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

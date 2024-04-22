@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EducationalPractice"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.up05.ChatRider"
+            android:exported="false"
+            android:label="@string/title_activity_chat_rider"
+            android:theme="@style/Theme.EducationalPractice" />
+        <activity
+            android:name="com.example.up05.Chats"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.DeliverySaccessful"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.SendAPackege3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Wallet"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Truck"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.TransactionSuccessful"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.SendAPackage2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.SendAPackage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Notification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.AddPaymentMethod"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Home"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.New_Password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.OTP_Verification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Log_in"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.SignUp"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Onboarding3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Onboarding4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Onboarding1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.up05.Spalsh"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

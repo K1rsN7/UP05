@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up05.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="341dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/searchh"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextText7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/searchh"
+                        android:ems="10"
+                        android:paddingLeft="10dp"
+                        android:hint="Search services"
+                        android:inputType="text"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="170dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/search" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="341dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/unkenblue"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView40"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ken" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hello Ken!"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="We trust you are having a great time"
+                            android:textColor="@color/gray_search" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView42"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/notification_white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="341dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="39dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Special for you"
+
+                        android:textColor="@color/orange"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="233dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/right_yellow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="341dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="166dp"
+                        android:layout_height="64dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/tech_meetup" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="166dp"
+                        android:layout_height="64dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/love_revolution" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="341dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="29dp"
+                    android:scrollbarSize="14dp"
+                    android:text="What would you like to do"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="9dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="159dp"
+                        android:layout_marginRight="23dp"
+                        android:layout_height="159dp"
+                        android:src="@drawable/customer_imag" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="159dp"
+                        android:layout_height="159dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/sendapackage_imag" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="23dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/find_your_wallet_imag" />
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="Chats"
+                        android:src="@drawable/chats_imag" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:src="@drawable/homeact" />
+
+                <ImageButton
+                    android:id="@+id/walet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Walet"
+                    android:src="@drawable/walet" />
+
+                <ImageButton
+                    android:id="@+id/track"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Track"
+                    android:src="@drawable/track" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Profile"
+                    android:src="@drawable/profile" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

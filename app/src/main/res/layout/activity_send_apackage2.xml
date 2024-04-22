@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up05.SendAPackage2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:backgroundTint="#00FFFFFF"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="Right"
+                    android:src="@drawable/sq_right" />
+
+                <TextView
+                    android:id="@+id/textView227"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="28dp"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="Send a package"
+                    android:textColor="@color/Gray"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:layout_height="wrap_content"
+                    android:text="Package Information"
+                    android:textSize="16dp"
+                    android:textColor="@color/Blue"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Origin details"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text=""
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Destination details"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text=""
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Other details" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Package Items"
+                        android:textSize="12dp"
+                        android:textColor="@color/Gray"/>
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:textSize="12dp"
+                        android:textColor="@color/yellow"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Weight of items"
+                        android:textSize="12dp"
+                        android:textColor="@color/Gray"/>
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:textSize="12dp"
+                        android:textColor="@color/yellow"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Worth of Items"
+                        android:textSize="12dp"
+                        android:textColor="@color/Gray"/>
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:gravity="right"
+                        android:textSize="12dp"
+                        android:textColor="@color/yellow"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tracking Number"
+                        android:textSize="12dp"
+                        android:textColor="@color/Gray"/>
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="R-7458-4567-4434-5854"
+                        android:gravity="right"
+                        android:textSize="12dp"
+                        android:textColor="@color/yellow"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"
+                    android:layout_marginTop="37dp"/>
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Charges"
+                    android:textSize="16dp"
+                    android:textColor="@color/Blue"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Delivery Charges"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="N2,500.00"
+                        android:textColor="@color/yellow"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Instant delivery"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="N300.00"
+                        android:textColor="@color/yellow"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tax and Service Charges"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="N200.00"
+                        android:textColor="@color/yellow"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="9dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Package total"
+                        android:textColor="@color/Gray"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="N3000.00"
+                        android:textColor="@color/yellow"
+                        android:textSize="12dp"  />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="46dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="24dp"
+                        android:layout_weight="1"
+                        android:text="Edit package"
+                        android:onClick="sendapack"
+                        android:textColor="@color/Blue"
+                        android:backgroundTint="@color/white"
+                        app:cornerRadius="8dp"
+                        app:strokeColor="#0560FA"
+                        app:strokeWidth="1dp"/>
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Make payment"
+                        android:onClick="makepayment"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/Blue"
+                        app:cornerRadius="8dp"
+                        app:strokeColor="#0560FA"
+                        app:strokeWidth="1dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

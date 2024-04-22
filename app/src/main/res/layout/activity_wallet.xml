@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.up05.Wallet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:backgroundTint="#00FFFFFF"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Wallet"
+                android:textColor="@color/Gray"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="342dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="361dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="41dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ken" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="100dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView36"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hello Ken"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView37"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Current balance:" />
+
+                                <TextView
+                                    android:id="@+id/textView38"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="N10,712:00"
+                                    android:textColor="@color/blue"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/imageView28"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/eye" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="341.43dp"
+                        android:layout_height="116dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="28dp"
+                        android:background="@drawable/top_up"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Top Up"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="50dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton"
+                                    android:layout_width="49.43dp"
+                                    android:layout_height="48dp"
+                                    android:backgroundTint="@color/gray"
+                                    android:src="@drawable/bank"
+                                    app:cornerRadius="49dp" />
+
+                                <TextView
+                                    android:id="@+id/textView40"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Bank"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="50dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton2"
+                                    android:layout_width="49.43dp"
+                                    android:layout_height="48dp"
+                                    android:backgroundTint="@color/gray"
+                                    android:src="@drawable/trunsfer"
+                                    app:cornerRadius="49dp" />
+
+                                <TextView
+                                    android:id="@+id/textView41"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Transfer"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton3"
+                                    android:layout_width="49.43dp"
+                                    android:layout_height="48dp"
+                                    android:backgroundTint="@color/gray"
+                                    android:src="@drawable/card_top_up"
+                                    app:cornerRadius="49dp" />
+
+                                <TextView
+                                    android:id="@+id/textView42"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Card"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="41dp"
+                        android:text="Transaction History"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="342dp"
+                        android:layout_height="320dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="23dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView50"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView51"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 7, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView53"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="N2,000.00"
+                                    android:textColor="@color/green"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView52"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lalalalala"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 4, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView54"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView55"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Third Delivery"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView46"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 1, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView56"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="N1,000.00"
+                                    android:textColor="@color/green"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView57"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Another One"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView47"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="June 27, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView58"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="N2,500.00"
+                                    android:textColor="@color/green"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView59"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView48"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="June 23, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView60"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView61"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="June 17, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView67"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView68"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView66"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 17, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView77"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView78"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView76"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 17, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="342dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/cub"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView87"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="-N3,000.00"
+                                    android:textColor="@color/red"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView88"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery fee"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView86"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="12dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:text="July 17, 2022"
+                                android:textColor="@color/gray"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="Home"
+                    android:backgroundTint="#00FFFFFF"
+                    android:src="@drawable/home" />
+
+                <ImageButton
+                    android:id="@+id/walet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Walet"
+                    android:src="@drawable/walletact" />
+
+                <ImageButton
+                    android:id="@+id/track"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Track"
+                    android:src="@drawable/track" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00FFFFFF"
+                    android:onClick="Profile"
+                    android:src="@drawable/profile" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
