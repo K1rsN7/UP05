@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EducationalPractice"
         tools:targetApi="31">
         <activity
+            android:name="com.example.up05.Calling"
+            android:exported="false" />
+        <activity
             android:name="com.example.up05.ChatRider"
             android:exported="false"
             android:label="@string/title_activity_chat_rider"

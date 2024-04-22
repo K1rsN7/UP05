@@ -33,7 +33,7 @@
 
                 <TextView
                     android:id="@+id/textView227"
-                    android:layout_width="wrap_content"
+                    android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginRight="28dp"
@@ -43,6 +43,15 @@
                     android:textColor="@color/Gray"
                     android:textSize="16dp"
                     android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="Call"
+                    android:src="@drawable/" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
